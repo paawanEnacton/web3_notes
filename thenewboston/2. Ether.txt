@@ -1,0 +1,5 @@
+- Ethereum is a network and Ether is a unit currency used by Ethereum
+- Ether is needed for creating, issuing and deploying smart Contract to the network. Also to execute smart Contracts
+- 1 Ether = 1 quintillion Wei
+
+- whenever new ether is created, it distributed to ONE node at a time to process mining

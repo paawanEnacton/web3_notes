@@ -1,0 +1,9 @@
+=> Ethereum is 
+	- a new way to create and transfer values that are opened to anyone
+	- a decentralized computer network that executes SMART CONTRACTS
+	
+	
+Smart Contracts are
+
+	- used to instruct the network how to assign ownership to these assets
+	

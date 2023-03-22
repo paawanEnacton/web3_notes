@@ -1,0 +1,21 @@
+Ethereum account
+
+- Consists address
+- It can send transactions
+- Whenever we want to make a transaction, we send ethers on someone's ADDRESS
+
+
+2 types of accounts:
+    i. Externally Owned Account (controlled by individuals)
+    ii. Contract Account (controlled by smart contracts)
+
+=> EOA (Externally Owned Account):
+    - free to create
+    - they can initiate network transactions
+    - consists private and public keys
+    
+
+=> CA (Contract Account):
+    - they require ether to create (becuase of network storage is being used by creating CA)
+    - cannot initiate network transactions by their own
+    - need to be triggered by user within EOA
