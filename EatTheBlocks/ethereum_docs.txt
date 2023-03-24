@@ -4,6 +4,6 @@ EVM (Ethereum Virtual Machine) : canonical computer whose state everyone on the 
 In order to access to web3, you need to have an access to any of the ethereum node.
 
 Possible solutions
-1. Run your own node (expensive)
+1. Run your own node (expensive) 
 2. Use Infura service that expose an API to interact with the ethereum nodes (Only to connect with the smart contracts on the mainnet real network)
 3. Ganache for local test network 

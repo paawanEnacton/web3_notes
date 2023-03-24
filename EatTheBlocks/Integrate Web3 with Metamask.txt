@@ -1,0 +1,6 @@
+frontend(Web3)
+     |
+     | 1. Request to sign transaction  
+     |
+     |     
+ Metamask -------> 

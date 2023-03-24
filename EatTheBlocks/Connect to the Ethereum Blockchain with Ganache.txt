@@ -1,0 +1,28 @@
+web3 provider: we pass provider the api url and it connects to the node on behalf of web3
+
+const Web3 = require('web3');
+
+// connected to the blockchain!!
+const web3 = new Web3('http://localhost:8545');
+
+web3.eth.getBlockNumber().then(() => console.log('done!'))
+
+=>  contract abi = all the functions of a smart contract that can be called from outside of the blockchain
+
+```
+const Web3 = require('web3');
+const web3 = new Web3('http://localhost:8545');
+const MyContact = require("./builds/comntracts/MyContact.json")
+const init = () => {
+// network id where we deployed our smart contract
+const id = await web3.eth.net.getId();
+const deployedNetwork = MyContact.networks[id]
+// create a contract instance
+const contract = new web3.eth.Contract(MyContact.abi, deployedNetwork.address)
+}
+```
+
+
+- how will we get the abi of a SM? => By compiling the the SM code, abi will be generated in the "build" folder. (truffle compile)
+- In abi, all the public functions will be listed. (private function can only be called from inside the network)
+

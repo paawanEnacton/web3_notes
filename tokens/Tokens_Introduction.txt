@@ -1,0 +1,4 @@
+1. what is a token??
+=>  its an Ethereum SM that represents an asset or a service.
+
+2. 
