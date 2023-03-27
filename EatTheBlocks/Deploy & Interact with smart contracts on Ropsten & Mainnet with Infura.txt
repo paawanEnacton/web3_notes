@@ -1,4 +1,4 @@
 1. Sign transaction with wallet
-2. Send signed transaction to infura
+2. Send signed transaction to infura    
  
 @truffle/hdwallet-provider = its a provider that allows you to use your own ethereum addresses and assign transaction with these addresses
